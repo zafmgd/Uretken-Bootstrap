@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="libs/css/all.min.css" />
+
+  <link rel="stylesheet" href="libs/css/fontawesome.min.css" />
+
+  <link href="libs/css/style.css" rel="stylesheet" />
+
+  <title>Üretken Akademi Bootstrap Ödevim</title>
+
+</head>
+
+
+
+<body>
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+ 
+
+
+
+    <div class="jumbotron text-center">
+      <h1>Üretken Akademi </h1>
+      <p class="lead">Üretken Akademi CSS Nedir?</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <a class="navbar-brand" href="#">Bloğum</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-expanded="false" aria-label="Toggle navigation"></button>
+    
+      
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Yeni Haberler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hakkında</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">İletişim</a>
+          </li>
+        </ul>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+        Language/Dil
+      </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Türkçe</a>
+            <a class="dropdown-item" href="#">English (İngilizce)</a>
+            <a class="dropdown-item" href="#">Русский (Rusça)</a>
+            <a class="dropdown-item" href="#">Italian (İtalyanca)</a>
+            <a class="dropdown-item" href="#">日本語 (Japonca)</a>
+            <a class="dropdown-item" href="#">Português (Portekizce)</a>
+            <a class="dropdown-item" href="#">한국어 (Korece)</a>
+            <a class="dropdown-item" href="#">Deutsch (Almanca)</a>
+            <a class="dropdown-item" href="#">العربية (Arapça)</a>
+          </div>
+        
+        
+      
+      </div>
+
+
+
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        
+        <div class="col-xs-12 col-sm-4">
+          <div id="about-me">
+            <h1>Hakkımda</h1>
+            
+            <img  class="img-fluid w-50" src="file:///C:/Users/YUSUF-RUMEYSA/OneDrive/Resimler/Yusuf%20Talha%20Saraç%20zafmgd.jpeg" alt="my-photo">
+
+           
+          </div>
+          <div id="social-media">
+            <h1>Sosyal Medya Linklerim</h1>
+            
+           
+            <ul class="list-group mb-5">
+              <a class="list-group-item" href="www.linkedin.com/in/yusuf-talha-saraç-752445262"><i class="fa-brands fa-github"></i>Linkedin</a>
+                
+              <a class="list-group-item" href="https://github.com/zafmgd?tab=overview&from=2023-01-01&to=2023-01-29"><i class="fa-brands fa-linkedin"></i>Github</a>
+                
+              <a class="list-group-item" href="saractalhayusuf@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a>
+              
+                
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <div class="news">
+            <h1>CSS</h1>
+            
+            <img class="img-fluid news-banner" src="https://www.beytullahgunes.com/wp-content/uploads/2012/07/css-nedir.png" alt="news">
+              
+              
+              
+            <p>CSS Nedir Kısaca Özetleyelim?</p>
+            <p>CSS nedir kısa? Cascading Style Sheets (Basamaklı Stil Şablonları ya da Basamaklı Biçim Sayfaları, bilinen kısa adıyla CSS), HTML'e ek olarak metin ve format biçimlendirme alanında fazladan olanaklar sunan bir işaretleme dilidir.</p>
+          </div>
+
+          <div class="news">
+            <h1>CSS ve HTML Arasındaki Farklar nelerdir?</h1>
+            
+            <img class="img-fluid news-banner" src="data:image/png;base64,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" alt="news"/>
+              
+            <p>Şöyle düşünelim HTML bir web sitesinin kurallarını, içinde olması gereken bilgileri ve tanımlamaları içinde barındırmaktadır. CSS ise HTML içinde belirlenmiş kuralları ve tanımlamalara uygun şekilde stil vermek için kullanılmaktadır</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center mt-3">
+      <p>Copyright &copy; 2022-2023; zafmgd</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>
